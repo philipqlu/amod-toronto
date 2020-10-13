@@ -14,7 +14,9 @@ import amodeus.amodtaxi.scenario.toronto.TorontoScenarioCreation;
 
 /** provides a quick access to the implementations of {@link ScenarioCreation}:
  * {@link ChicagoScenarioCreation}
- * {@link SanFranciscoScenarioCreation} */
+ * {@link SanFranciscoScenarioCreation}
+ * {@link TorontoScenarioCreation}
+ */
 public enum ScenarioCreator {
     CHICAGO {
         @Override

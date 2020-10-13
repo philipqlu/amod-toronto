@@ -13,9 +13,4 @@ Please let us know if you'd like to contribute!
 This repository allows to generate the files necessary to run [amodeus](https://github.com/amodeus-science/amodeus) simulations as shown in the [amod](https://github.com/amodeus-science/amod) repository, from real data.
 
 The locations provided are:
-- **Chicago** using [ChicagoScenario](https://github.com/amodeus-science/amodtaxi/blob/master/src/main/java/ch/ethz/idsc/amodtaxi/scenario/chicago/ChicagoScenarioCreation.java)
-    - downloads data on its own through API from [City of Chicago](https://data.cityofchicago.org/Transportation/Taxi-Trips/wrvz-psew)
-- **San Francisco** using [SanFranciscoScenarioCreation](https://github.com/amodeus-science/amodtaxi/blob/master/src/main/java/ch/ethz/idsc/amodtaxi/scenario/sanfrancisco/SanFranciscoScenarioCreation.java)
-    - uses a mini-slice of the dataset of mobility traces of taxi cabs in San Francisco, USA, by Michal Piorkowski, Natasa Sarafijanovic-Djukic, and Matthias Grossglauser (full set available at https://crawdad.org/epfl/mobility/20090224/)
-
-Our website is [amodeus.science](https://www.amodeus.science/).
+- **Toronto** using [TorontoScenarioCreation](https://github.com/philipqlu/amod-toronto/blob/main/amodtaxi/src/main/java/amodeus/amodtaxi/scenario/toronto/TorontoScenarioCreation.java).
