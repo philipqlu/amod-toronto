@@ -1,0 +1,54 @@
+Mon Oct 12 2020 17:26:28 GMT-0400 (Eastern Daylight Time) - Run Time: 2316ms
+
+Cross Tabulation Query Form - Trip - 2016 v1.1
+
+Row: Start time of trip - start_time
+Column: Ward number of destination - ward_dest
+Table: Ward number of origin - ward_orig
+
+
+Filters:
+Primary travel mode of trip - mode_prime In T, U
+and
+Age of person - age In 99
+and
+Ward number of origin - ward_orig In 1-44
+and
+Ward number of destination - ward_dest In 1-44
+
+Trip 2016
+ROW : start_time
+COLUMN : ward_dest
+
+TABLE    : ward_orig (10)
+
+  start_time   ward_dest      total
+        1230          23         11
+
+TABLE    : ward_orig (20)
+
+  start_time   ward_dest      total
+        1835          27         10
+
+TABLE    : ward_orig (23)
+
+  start_time   ward_dest      total
+        1115          10         11
+        1445          24         11
+
+TABLE    : ward_orig (27)
+
+  start_time   ward_dest      total
+        1000          27         10
+        1700          27         10
+        1830          20         10
+
+TABLE    : ward_orig (29)
+
+  start_time   ward_dest      total
+        1500          32         31
+
+TABLE    : ward_orig (32)
+
+  start_time   ward_dest      total
+         630          29         31

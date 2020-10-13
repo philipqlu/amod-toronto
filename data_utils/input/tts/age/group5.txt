@@ -1,0 +1,507 @@
+Mon Oct 12 2020 17:25:32 GMT-0400 (Eastern Daylight Time) - Run Time: 2450ms
+
+Cross Tabulation Query Form - Trip - 2016 v1.1
+
+Row: Start time of trip - start_time
+Column: Ward number of destination - ward_dest
+Table: Ward number of origin - ward_orig
+
+
+Filters:
+Primary travel mode of trip - mode_prime In T, U
+and
+Age of person - age In 51-60
+and
+Ward number of origin - ward_orig In 1-44
+and
+Ward number of destination - ward_dest In 1-44
+
+Trip 2016
+ROW : start_time
+COLUMN : ward_dest
+
+TABLE    : ward_orig (1)
+
+  start_time   ward_dest      total
+         615           7         26
+
+TABLE    : ward_orig (2)
+
+  start_time   ward_dest      total
+        1000          27         29
+        1530          27         10
+
+TABLE    : ward_orig (3)
+
+  start_time   ward_dest      total
+        1700          41         47
+        2000           4         16
+
+TABLE    : ward_orig (4)
+
+  start_time   ward_dest      total
+        1520          28         15
+        1900          27         23
+        2030          11         21
+
+TABLE    : ward_orig (5)
+
+  start_time   ward_dest      total
+        1000          11         20
+        1500          13         14
+        1620          19         11
+        1630           6         13
+        1830          28         13
+        2400           6         14
+
+TABLE    : ward_orig (6)
+
+  start_time   ward_dest      total
+        1645          28         26
+        1800           5         14
+        2230          28         14
+        2330           4         24
+
+TABLE    : ward_orig (7)
+
+  start_time   ward_dest      total
+        1400          19          5
+        1530           7          9
+        1600           1         26
+
+TABLE    : ward_orig (8)
+
+  start_time   ward_dest      total
+        1000           8         28
+        1300           8         15
+        1400           8         28
+        1600           8         28
+
+TABLE    : ward_orig (9)
+
+  start_time   ward_dest      total
+        1830          12         19
+
+TABLE    : ward_orig (10)
+
+  start_time   ward_dest      total
+         900          24         25
+        1045          25         40
+
+TABLE    : ward_orig (11)
+
+  start_time   ward_dest      total
+         815          12         33
+        1410          13         15
+        1530           4         21
+        1600          20         33
+
+TABLE    : ward_orig (12)
+
+  start_time   ward_dest      total
+         845          20         33
+         930          11         36
+        1100           9         19
+        1350          13         35
+
+TABLE    : ward_orig (13)
+
+  start_time   ward_dest      total
+         900           5         14
+        1030          12         35
+        1115          28         14
+        1400          13          9
+        1440          11         15
+        1500          30         12
+        2405          19          5
+
+TABLE    : ward_orig (14)
+
+  start_time   ward_dest      total
+        1000          14          5
+        1100          27          5
+        1300          27         18
+        1600          14         18
+        2130          29         15
+        2310          27         18
+        2345          14          7
+
+TABLE    : ward_orig (15)
+
+  start_time   ward_dest      total
+        1200          16         23
+        1930          38          9
+        2030          15         16
+
+TABLE    : ward_orig (16)
+
+  start_time   ward_dest      total
+        2030          16          5
+        2300          16          5
+
+TABLE    : ward_orig (17)
+
+  start_time   ward_dest      total
+         735          20         16
+
+TABLE    : ward_orig (18)
+
+  start_time   ward_dest      total
+         510          18         66
+        1130          18          5
+        1400          17          6
+        1430          20         17
+        1710          18         66
+
+TABLE    : ward_orig (19)
+
+  start_time   ward_dest      total
+         700          27         21
+         705          28         28
+         800          20         13
+         830          28          3
+        1000          19         11
+        1000          27         18
+        1700          19         14
+        1705          27         21
+        1715          20         18
+        1715          28         16
+        1730          22          6
+        2000          28         12
+        2015          27         13
+        2100          28         12
+        2130          13         12
+        2300           7          5
+        2315           5         11
+        2600          18         14
+
+TABLE    : ward_orig (20)
+
+  start_time   ward_dest      total
+         630          20         13
+         845          27         12
+         930          30          4
+        1130          19         13
+        1200          27         17
+        1230          19         87
+        1320          27         24
+        1500          14         18
+        1500          20         10
+        1530          17          4
+        1545          18         17
+        1545          19          5
+        1600          36         27
+        1615          20         33
+        1615          27         30
+        1645          20         31
+        1730          21         17
+        1730          28         22
+        1800          30          5
+        1815          20         11
+        1830          27         30
+        1900          19          4
+        1900          27         33
+        1910          20         20
+        1925          19         14
+        1925          20         31
+        1940          20         11
+        1945          20          6
+        2030          20         63
+        2030          30          5
+        2100          20         16
+        2110          20         20
+        2115          28         12
+        2120          21         27
+        2200          19          5
+        2200          27         17
+        2200          32          8
+        2230          20          6
+        2235          27         10
+        2245          14          6
+        2300          27         11
+        2400          27         11
+        2420          22         14
+        2515          31         18
+        2530          20         10
+        2600          22         10
+        2600          27         32
+        2745          35         36
+
+TABLE    : ward_orig (21)
+
+  start_time   ward_dest      total
+        1015          27         10
+        2030          20         17
+        2100          20         27
+
+TABLE    : ward_orig (22)
+
+  start_time   ward_dest      total
+        1020          27         13
+        1100          28         25
+        1230          28         18
+        1320          22         31
+        1330          22         31
+        1730          29         24
+        1830          26         14
+        2455          27         14
+        2500          22         33
+
+TABLE    : ward_orig (23)
+
+  start_time   ward_dest      total
+        1000          23         13
+        1045          23         13
+        1545          34         10
+        1750          15          9
+
+TABLE    : ward_orig (24)
+
+  start_time   ward_dest      total
+        1300          10         25
+        1500          34         12
+
+TABLE    : ward_orig (25)
+
+  start_time   ward_dest      total
+         840          34         26
+        1600          26         18
+        2025          10         40
+
+TABLE    : ward_orig (26)
+
+  start_time   ward_dest      total
+         945          28         13
+        1000          32          9
+        1415          25         18
+        1805          29        102
+        1915          22         14
+        2000          34         18
+
+TABLE    : ward_orig (27)
+
+  start_time   ward_dest      total
+         600          28         13
+         635          28         11
+         700          28         18
+         740          20         17
+         745          20         30
+         800          28          6
+         810          19         21
+         945          25         14
+        1015          22         14
+        1030          30         18
+        1100          32         15
+        1200          28         21
+        1300           2         29
+        1400          14          5
+        1400          20         18
+        1400          27         34
+        1415          21         10
+        1415          28         21
+        1445          27         14
+        1500          17         34
+        1510          28         33
+        1515          28         14
+        1525          20         33
+        1530          28         31
+        1530          35         29
+        1600          32         27
+        1645          29         14
+        1700          28         19
+        1730          20         10
+        1730          22         18
+        1730          27         30
+        1800          19         20
+        1800          20         30
+        1800          32         14
+        1800          37         26
+        1830          20         33
+        1845          20         18
+        1850          19         77
+        1900          19         12
+        1900          20         16
+        1905          14         17
+        1910          14         23
+        1910          27          9
+        1930          16         10
+        1930          22         38
+        1945          32          8
+        2000          20         11
+        2000          21         17
+        2000          22         14
+        2045          27         33
+        2100          20         37
+        2230           4         23
+        2230          17         80
+        2300          20          8
+        2300          25         17
+        2300          35         29
+        2310          19         37
+        2330          21         13
+        2330          28         35
+        2615          28         15
+
+TABLE    : ward_orig (28)
+
+  start_time   ward_dest      total
+         730           2         10
+         800          19         16
+         930          27         12
+        1100          28         27
+        1120          22         18
+        1200          30         17
+        1240          28          5
+        1245          27         22
+        1310          20         15
+        1315          27         21
+        1340          22         25
+        1350          28          5
+        1400          13         14
+        1500          27         54
+        1545          28         14
+        1600          27         18
+        1630          10         10
+        1630          28         19
+        1630          32         15
+        1700          28          9
+        1730          44         19
+        1740          28         19
+        1800          20          8
+        1830           6         14
+        1845          31         17
+        1900          19         12
+        1910          19          5
+        1910          32          4
+        1915          23         31
+        1930          21         13
+        1930          27         35
+        1945          25         18
+        1945          27          6
+        2000          32         18
+        2045          19          3
+        2105          27         11
+        2130          28         19
+        2200           5         15
+        2200          13         21
+        2200          16          5
+        2200          19          3
+        2200          27         13
+        2230           5         48
+        2230           6         26
+        2230          15         23
+        2230          29         11
+        2300          16         13
+        2315          13          9
+        2345          20         12
+        2400          27         13
+        2415          31         23
+        2600          29          9
+
+TABLE    : ward_orig (29)
+
+  start_time   ward_dest      total
+         800          29        102
+        1400          29        102
+        1535          27         14
+        1900          29         27
+        1950          30          4
+        2030          28         11
+        2100          31         18
+        2540          16         13
+
+TABLE    : ward_orig (30)
+
+  start_time   ward_dest      total
+        1000          19          4
+        1255          13          6
+        1730          28         29
+        2030          20          5
+        2245          21         27
+        2245          36          7
+        2400          13          5
+        2500          13         12
+
+TABLE    : ward_orig (31)
+
+  start_time   ward_dest      total
+         700          28         17
+        1320          35         26
+        1800          20         18
+
+TABLE    : ward_orig (32)
+
+  start_time   ward_dest      total
+         730          28          9
+         800          27         27
+         830          27          8
+         900          20         38
+         915          28         23
+        1310           4         15
+        1630          28          8
+        2200          32         18
+        2430          32         31
+        2600          28          4
+
+TABLE    : ward_orig (33)
+
+  start_time   ward_dest      total
+         705          34          7
+        1510          34         33
+
+TABLE    : ward_orig (34)
+
+  start_time   ward_dest      total
+         715          26         18
+         830          23         10
+        1120          20         12
+        1130          25         26
+        1235          33         33
+        1430          37         12
+        1630          43         26
+
+TABLE    : ward_orig (35)
+
+  start_time   ward_dest      total
+         430          27         29
+        1600          35         47
+
+TABLE    : ward_orig (36)
+
+  start_time   ward_dest      total
+         900          20         27
+        1030          36         40
+        1130          36         40
+
+TABLE    : ward_orig (37)
+
+  start_time   ward_dest      total
+         740          38         27
+         930          27         26
+        1220          44         67
+        1650          34         12
+
+TABLE    : ward_orig (38)
+
+  start_time   ward_dest      total
+        1600          37         27
+        1700          38         49
+        1800          38         49
+        2100          38         49
+
+TABLE    : ward_orig (41)
+
+  start_time   ward_dest      total
+         845           3         47
+
+TABLE    : ward_orig (42)
+
+  start_time   ward_dest      total
+         900          42         22
+         930          42         22
+        1600          42         22
+
+TABLE    : ward_orig (43)
+
+  start_time   ward_dest      total
+         530          34         26
