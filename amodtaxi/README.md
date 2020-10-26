@@ -1,6 +1,6 @@
 # amodeus.amodtaxi <a href="https://travis-ci.org/amodeus-science/amodtaxi"><img src="https://travis-ci.org/amodeus-science/amodtaxi.svg?branch=master" alt="Build Status"></a>
 
-This repository enables you to crete your own scenarios to be used in [amodeus](https://github.com/amodeus-science/amodeus).
+This repository enables you to create your own scenarios to be used in [amodeus](https://github.com/amodeus-science/amodeus).
 
 ## Admins
 

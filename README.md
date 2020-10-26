@@ -21,7 +21,7 @@ Contains code to run the scenario creation and simulation pipeline. Uses
 ### How to run in Eclipse
 * Create a folder to store the simulation results.
 * Set up run configurations, setting the working directory to the created folder
-above. See [amod](https://github.com/philipqlu/amod-toronto/amod) for
+above. See [amod](https://github.com/philipqlu/amod-toronto/tree/main/amod) for
 more instructions.
 
 ## amodtaxi
