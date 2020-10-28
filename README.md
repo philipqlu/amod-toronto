@@ -39,7 +39,9 @@ building a MATSim network, and creating a population.
 
 ## data_utils
 Contains preprocessing pipeline for synthesizing a population/trip dataset and
-postprocessing code for cleaning and plotting the results.
+postprocessing code for cleaning and plotting the results. The `input` folder
+contains the trip synthesis notebook and all required datasets. The `output`
+folder contains the AMoDeus simulation results, analysis notebook, and plots.
 
 ## Demo
 ### Model-Free Adaptive Repositioning
