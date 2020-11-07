@@ -2,15 +2,28 @@
 Autonomous Mobility-on-Demand (AMoD) simulation and analysis pipeline for
 Toronto.
 
+## Overview
+Driverless, autonomous vehicles (AVs) pose sweeping implications for the future
+of our cities and roads, from congestion to the design and usage of public
+spaces. In Ontario, the Ministry of Transportation has allowed AVs to be tested
+on public roads under certain conditions. Though it may be years still before
+fully autonomous vehicles roam our streets, we are at a critical window of
+opportunity to anticipate and plan for their impacts on our cities and citizens.
+In this project, I test different operating scenarios of autonomous,
+mobility-on-demand (AMoD) vehicle fleets in the City of Toronto. This pipeline
+includes generating a synthetic trips dataset and using the AMoDeus library to
+create, run, and view agent-based models of AV fleets. After running the simulation, I explore how metrics such as passenger wait
+times and fleet travel distances vary across different operating policies and
+income and age groups.
+
 ## Installation
-* To use data_utils:
+To use data_utils:
 ```
 cd data_utils
 pip install -r requirements.txt
 ```
-* You will need `GDAL` for the postprocessing notebook. Install by going to
-  https://pypi.org/project/GDAL/ or running `conda install GDAL`.
-* To configure AMoDeus, follow the `README.md` in
+You will need `GDAL` for the postprocessing notebook. Install by going to
+https://pypi.org/project/GDAL/ or running `conda install GDAL`. To configure AMoDeus, follow the `README.md` in
 [amod](https://github.com/philipqlu/amod-toronto/amod) and 
 [amodtaxi](https://github.com/philipqlu/amod-toronto/amodtaxi).
 
@@ -43,9 +56,46 @@ postprocessing code for cleaning and plotting the results. The `input` folder
 contains the trip synthesis notebook and all required datasets. The `output`
 folder contains the AMoDeus simulation results, analysis notebook, and plots.
 
+## Dispatching Algorithms Used
+* **Global Bipartite Matching Policy** fromRuch, Claudio, Sebastian Hörl, and Emilio Frazzoli. "Amodeus, a simulation-based testbed for autonomous mobility-on-demand systems." 2018 21st International Conference on Intelligent Transportation Systems (ITSC). IEEE, 2018.
+* **Demand-supply-balancing dispatching heuristic** from *Large-scale
+  microscopic simulation of taxi services* by Maciejewski, M., and Bischoff J., 2015. 
+* **Model-Free Adaptive Repositioning** from The +1 Method: Model-Free Adaptive Repositioning Policies for Robotic Multi-Agent Systems by Ruch, C., Gächter, J., Hakenberg, J. and Frazzoli, E., 2019.
+
 ## Demo
 ### Model-Free Adaptive Repositioning
 ![Model-free adaptive repositioning with fleet size = 100](images/mf_fs_100.gif)
 
 ### Global Euclidean Bipartite Matching
 ![GBM with fleet size = 100](images/gbm_fs_100.gif)
+
+## Sample results
+Baseline results show that the choice of AV fleet policy does influence how
+wait times are distributed across income groups. In particular, passengers from
+lower income households tend to experience longer wait times when a fleet
+rebalancing algorithm is used. Non-rebalancing policies don't show this
+tendency, suggesting that the rebalancing policy could potentially exacerbate
+mobility inequities between passengers in low and high income households. There
+doesn't appear to be a trend in wait times or travel distances with respect to passenger age groups.
+
+### Model-Free Adaptive Repositioning
+The below results are with a fleet size of 200.
+
+Wait times across household income | Distances across household income
+:-------------------------:|:-------------------------:
+![Wait Time vs. Income](data_utils/output/figures/income_w_mf_200.png) | ![Distance vs. Income ](data_utils/output/figures/income_d_mf_200.png)
+
+Wait times across age groups | Distances across age groups
+:-------------------------:|:-------------------------:
+![Wait Time vs. Age](data_utils/output/figures/age_w_mf_200.png) | ![Distance vs. Age](data_utils/output/figures/age_d_mf_200.png)
+
+### Demand-Supply Balancing 
+The below results are with a fleet size of 200.
+
+Wait times across household income | Distances across household income
+:-------------------------:|:-------------------------:
+![Wait Time vs. Income](data_utils/output/figures/income_w_ds_200.png) | ![Distance vs. Income ](data_utils/output/figures/income_d_ds_200.png)
+
+Wait times across age groups | Distances across age groups
+:-------------------------:|:-------------------------:
+![Wait Time vs. Age](data_utils/output/figures/age_w_ds_200.png) | ![Distance vs. Age](data_utils/output/figures/age_d_ds_200.png)
