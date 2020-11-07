@@ -57,12 +57,12 @@ contains the trip synthesis code and all required datasets. The `output`
 folder contains the AMoDeus simulation results, analysis notebook, and plots.
 
 ## Dispatching Algorithms Used
-* **Global Bipartite Matching Policy**: Ruch, C., Hörl, S. and Frazzoli, E.,
-  2018. Amodeus, a simulation-based testbed for autonomous
+* **Global Euclidean Bipartite Matching**: Ruch, C., Hörl, S. and Frazzoli, E.,
+  2015. Amodeus, a simulation-based testbed for autonomous
   mobility-on-demand systems. In *2018 21st International Conference on
   Intelligent Transportation Systems (ITSC)* (pp. 3639-3644). IEEE.
-* **Demand-supply-balancing dispatching**: Maciejewski, M. and Bischoff, J., 
-  2015. Large-scale microscopic simulation of taxi services. *Procedia Computer
+* **Demand-Supply Balancing**: Maciejewski, M. and Bischoff, J., 
+  2018. Large-scale microscopic simulation of taxi services. *Procedia Computer
   Science*, 52, pp.358-364.
 * **Model-Free Adaptive Repositioning**: Ruch, C., Gachter, J., Hakenberg, J.
   and Frazzoli, E., 2020. The+ 1 Method: Model-Free Adaptive Repositioning
@@ -70,11 +70,14 @@ folder contains the AMoDeus simulation results, analysis notebook, and plots.
   Science and Engineering.*
 
 ## Demo
-### Model-Free Adaptive Repositioning
-![Model-free adaptive repositioning with fleet size = 100](images/mf_fs_100.gif)
-
 ### Global Euclidean Bipartite Matching
 ![GBM with fleet size = 100](images/gbm_fs_100.gif)
+
+### Demand-Supply Balancing
+![Demand-supply balancing with fleet size = 100](images/ds_fs_100.gif)
+
+### Model-Free Adaptive Repositioning
+![Model-free adaptive repositioning with fleet size = 100](images/mf_fs_100.gif)
 
 ## Sample results
 Baseline results show that the choice of AV fleet policy does influence how
