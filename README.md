@@ -51,16 +51,23 @@ rest is a data pipeline that runs these steps: loading the map and trip dataset,
 building a MATSim network, and creating a population.
 
 ## data_utils
-Contains preprocessing pipeline for synthesizing a population/trip dataset and
+Contains the preprocessing code for synthesizing a population/trip dataset and
 postprocessing code for cleaning and plotting the results. The `input` folder
-contains the trip synthesis notebook and all required datasets. The `output`
+contains the trip synthesis code and all required datasets. The `output`
 folder contains the AMoDeus simulation results, analysis notebook, and plots.
 
 ## Dispatching Algorithms Used
-* **Global Bipartite Matching Policy** fromRuch, Claudio, Sebastian Hörl, and Emilio Frazzoli. "Amodeus, a simulation-based testbed for autonomous mobility-on-demand systems." 2018 21st International Conference on Intelligent Transportation Systems (ITSC). IEEE, 2018.
-* **Demand-supply-balancing dispatching heuristic** from *Large-scale
-  microscopic simulation of taxi services* by Maciejewski, M., and Bischoff J., 2015. 
-* **Model-Free Adaptive Repositioning** from The +1 Method: Model-Free Adaptive Repositioning Policies for Robotic Multi-Agent Systems by Ruch, C., Gächter, J., Hakenberg, J. and Frazzoli, E., 2019.
+* **Global Bipartite Matching Policy**: Ruch, C., Hörl, S. and Frazzoli, E.,
+  2018. Amodeus, a simulation-based testbed for autonomous
+  mobility-on-demand systems. In *2018 21st International Conference on
+  Intelligent Transportation Systems (ITSC)* (pp. 3639-3644). IEEE.
+* **Demand-supply-balancing dispatching**: Maciejewski, M. and Bischoff, J., 
+  2015. Large-scale microscopic simulation of taxi services. *Procedia Computer
+  Science*, 52, pp.358-364.
+* **Model-Free Adaptive Repositioning**: Ruch, C., Gachter, J., Hakenberg, J.
+  and Frazzoli, E., 2020. The+ 1 Method: Model-Free Adaptive Repositioning
+  Policies for Robotic Multi-Agent Systems. *IEEE Transactions on Network
+  Science and Engineering.*
 
 ## Demo
 ### Model-Free Adaptive Repositioning
